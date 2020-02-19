@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B4E98CEF23FD494600F43DB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E98CEE23FD494600F43DB4 /* AppDelegate.swift */; };
+		B4E98CF123FD494600F43DB4 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = B4E98CF023FD494600F43DB4 /* art.scnassets */; };
+		B4E98CF323FD494600F43DB4 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E98CF223FD494600F43DB4 /* GameViewController.swift */; };
+		B4E98CF623FD494600F43DB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4E98CF423FD494600F43DB4 /* Main.storyboard */; };
+		B4E98CF823FD494600F43DB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4E98CF723FD494600F43DB4 /* Assets.xcassets */; };
+		B4E98CFB23FD494600F43DB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4E98CF923FD494600F43DB4 /* LaunchScreen.storyboard */; };
+		B4E98D0623FD494600F43DB4 /* KFC_BirdTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E98D0523FD494600F43DB4 /* KFC_BirdTests.swift */; };
+		B4E98D1123FD494600F43DB4 /* KFC_BirdUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E98D1023FD494600F43DB4 /* KFC_BirdUITests.swift */; };
+		B4E98D1F23FD4CB400F43DB4 /* BirdScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E98D1E23FD4CB400F43DB4 /* BirdScene.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B4E98D0223FD494600F43DB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B4E98CE323FD494600F43DB4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4E98CEA23FD494600F43DB4;
+			remoteInfo = KFC_Bird;
+		};
+		B4E98D0D23FD494600F43DB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B4E98CE323FD494600F43DB4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4E98CEA23FD494600F43DB4;
+			remoteInfo = KFC_Bird;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B4E98CEB23FD494600F43DB4 /* KFC_Bird.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KFC_Bird.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4E98CEE23FD494600F43DB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B4E98CF023FD494600F43DB4 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		B4E98CF223FD494600F43DB4 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		B4E98CF523FD494600F43DB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B4E98CF723FD494600F43DB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B4E98CFA23FD494600F43DB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B4E98CFC23FD494600F43DB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4E98D0123FD494600F43DB4 /* KFC_BirdTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KFC_BirdTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4E98D0523FD494600F43DB4 /* KFC_BirdTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KFC_BirdTests.swift; sourceTree = "<group>"; };
+		B4E98D0723FD494600F43DB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4E98D0C23FD494600F43DB4 /* KFC_BirdUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KFC_BirdUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4E98D1023FD494600F43DB4 /* KFC_BirdUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KFC_BirdUITests.swift; sourceTree = "<group>"; };
+		B4E98D1223FD494600F43DB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4E98D1E23FD4CB400F43DB4 /* BirdScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdScene.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B4E98CE823FD494600F43DB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4E98CFE23FD494600F43DB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4E98D0923FD494600F43DB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B4E98CE223FD494600F43DB4 = {
+			isa = PBXGroup;
+			children = (
+				B4E98CED23FD494600F43DB4 /* KFC_Bird */,
+				B4E98D0423FD494600F43DB4 /* KFC_BirdTests */,
+				B4E98D0F23FD494600F43DB4 /* KFC_BirdUITests */,
+				B4E98CEC23FD494600F43DB4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B4E98CEC23FD494600F43DB4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B4E98CEB23FD494600F43DB4 /* KFC_Bird.app */,
+				B4E98D0123FD494600F43DB4 /* KFC_BirdTests.xctest */,
+				B4E98D0C23FD494600F43DB4 /* KFC_BirdUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B4E98CED23FD494600F43DB4 /* KFC_Bird */ = {
+			isa = PBXGroup;
+			children = (
+				B4E98CEE23FD494600F43DB4 /* AppDelegate.swift */,
+				B4E98CF023FD494600F43DB4 /* art.scnassets */,
+				B4E98CF223FD494600F43DB4 /* GameViewController.swift */,
+				B4E98D1E23FD4CB400F43DB4 /* BirdScene.swift */,
+				B4E98CF423FD494600F43DB4 /* Main.storyboard */,
+				B4E98CF723FD494600F43DB4 /* Assets.xcassets */,
+				B4E98CF923FD494600F43DB4 /* LaunchScreen.storyboard */,
+				B4E98CFC23FD494600F43DB4 /* Info.plist */,
+			);
+			path = KFC_Bird;
+			sourceTree = "<group>";
+		};
+		B4E98D0423FD494600F43DB4 /* KFC_BirdTests */ = {
+			isa = PBXGroup;
+			children = (
+				B4E98D0523FD494600F43DB4 /* KFC_BirdTests.swift */,
+				B4E98D0723FD494600F43DB4 /* Info.plist */,
+			);
+			path = KFC_BirdTests;
+			sourceTree = "<group>";
+		};
+		B4E98D0F23FD494600F43DB4 /* KFC_BirdUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B4E98D1023FD494600F43DB4 /* KFC_BirdUITests.swift */,
+				B4E98D1223FD494600F43DB4 /* Info.plist */,
+			);
+			path = KFC_BirdUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B4E98CEA23FD494600F43DB4 /* KFC_Bird */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4E98D1523FD494600F43DB4 /* Build configuration list for PBXNativeTarget "KFC_Bird" */;
+			buildPhases = (
+				B4E98CE723FD494600F43DB4 /* Sources */,
+				B4E98CE823FD494600F43DB4 /* Frameworks */,
+				B4E98CE923FD494600F43DB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KFC_Bird;
+			productName = KFC_Bird;
+			productReference = B4E98CEB23FD494600F43DB4 /* KFC_Bird.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B4E98D0023FD494600F43DB4 /* KFC_BirdTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4E98D1823FD494600F43DB4 /* Build configuration list for PBXNativeTarget "KFC_BirdTests" */;
+			buildPhases = (
+				B4E98CFD23FD494600F43DB4 /* Sources */,
+				B4E98CFE23FD494600F43DB4 /* Frameworks */,
+				B4E98CFF23FD494600F43DB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4E98D0323FD494600F43DB4 /* PBXTargetDependency */,
+			);
+			name = KFC_BirdTests;
+			productName = KFC_BirdTests;
+			productReference = B4E98D0123FD494600F43DB4 /* KFC_BirdTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B4E98D0B23FD494600F43DB4 /* KFC_BirdUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4E98D1B23FD494600F43DB4 /* Build configuration list for PBXNativeTarget "KFC_BirdUITests" */;
+			buildPhases = (
+				B4E98D0823FD494600F43DB4 /* Sources */,
+				B4E98D0923FD494600F43DB4 /* Frameworks */,
+				B4E98D0A23FD494600F43DB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4E98D0E23FD494600F43DB4 /* PBXTargetDependency */,
+			);
+			name = KFC_BirdUITests;
+			productName = KFC_BirdUITests;
+			productReference = B4E98D0C23FD494600F43DB4 /* KFC_BirdUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B4E98CE323FD494600F43DB4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = DDEC;
+				TargetAttributes = {
+					B4E98CEA23FD494600F43DB4 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					B4E98D0023FD494600F43DB4 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = B4E98CEA23FD494600F43DB4;
+					};
+					B4E98D0B23FD494600F43DB4 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = B4E98CEA23FD494600F43DB4;
+					};
+				};
+			};
+			buildConfigurationList = B4E98CE623FD494600F43DB4 /* Build configuration list for PBXProject "KFC_Bird" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B4E98CE223FD494600F43DB4;
+			productRefGroup = B4E98CEC23FD494600F43DB4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B4E98CEA23FD494600F43DB4 /* KFC_Bird */,
+				B4E98D0023FD494600F43DB4 /* KFC_BirdTests */,
+				B4E98D0B23FD494600F43DB4 /* KFC_BirdUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B4E98CE923FD494600F43DB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4E98CF123FD494600F43DB4 /* art.scnassets in Resources */,
+				B4E98CFB23FD494600F43DB4 /* LaunchScreen.storyboard in Resources */,
+				B4E98CF823FD494600F43DB4 /* Assets.xcassets in Resources */,
+				B4E98CF623FD494600F43DB4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4E98CFF23FD494600F43DB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4E98D0A23FD494600F43DB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B4E98CE723FD494600F43DB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4E98D1F23FD4CB400F43DB4 /* BirdScene.swift in Sources */,
+				B4E98CF323FD494600F43DB4 /* GameViewController.swift in Sources */,
+				B4E98CEF23FD494600F43DB4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4E98CFD23FD494600F43DB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4E98D0623FD494600F43DB4 /* KFC_BirdTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4E98D0823FD494600F43DB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4E98D1123FD494600F43DB4 /* KFC_BirdUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B4E98D0323FD494600F43DB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B4E98CEA23FD494600F43DB4 /* KFC_Bird */;
+			targetProxy = B4E98D0223FD494600F43DB4 /* PBXContainerItemProxy */;
+		};
+		B4E98D0E23FD494600F43DB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B4E98CEA23FD494600F43DB4 /* KFC_Bird */;
+			targetProxy = B4E98D0D23FD494600F43DB4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B4E98CF423FD494600F43DB4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4E98CF523FD494600F43DB4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B4E98CF923FD494600F43DB4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4E98CFA23FD494600F43DB4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B4E98D1323FD494600F43DB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B4E98D1423FD494600F43DB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B4E98D1623FD494600F43DB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 0;
+				DEVELOPMENT_TEAM = E2D8MG55MH;
+				INFOPLIST_FILE = KFC_Bird/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DDEC.KFCBird;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B4E98D1723FD494600F43DB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 0;
+				DEVELOPMENT_TEAM = E2D8MG55MH;
+				INFOPLIST_FILE = KFC_Bird/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DDEC.KFCBird;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B4E98D1923FD494600F43DB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E2D8MG55MH;
+				INFOPLIST_FILE = KFC_BirdTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DDEC.KFC-BirdTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KFC_Bird.app/KFC_Bird";
+			};
+			name = Debug;
+		};
+		B4E98D1A23FD494600F43DB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E2D8MG55MH;
+				INFOPLIST_FILE = KFC_BirdTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DDEC.KFC-BirdTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KFC_Bird.app/KFC_Bird";
+			};
+			name = Release;
+		};
+		B4E98D1C23FD494600F43DB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E2D8MG55MH;
+				INFOPLIST_FILE = KFC_BirdUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DDEC.KFC-BirdUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KFC_Bird;
+			};
+			name = Debug;
+		};
+		B4E98D1D23FD494600F43DB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E2D8MG55MH;
+				INFOPLIST_FILE = KFC_BirdUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DDEC.KFC-BirdUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KFC_Bird;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B4E98CE623FD494600F43DB4 /* Build configuration list for PBXProject "KFC_Bird" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4E98D1323FD494600F43DB4 /* Debug */,
+				B4E98D1423FD494600F43DB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4E98D1523FD494600F43DB4 /* Build configuration list for PBXNativeTarget "KFC_Bird" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4E98D1623FD494600F43DB4 /* Debug */,
+				B4E98D1723FD494600F43DB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4E98D1823FD494600F43DB4 /* Build configuration list for PBXNativeTarget "KFC_BirdTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4E98D1923FD494600F43DB4 /* Debug */,
+				B4E98D1A23FD494600F43DB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4E98D1B23FD494600F43DB4 /* Build configuration list for PBXNativeTarget "KFC_BirdUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4E98D1C23FD494600F43DB4 /* Debug */,
+				B4E98D1D23FD494600F43DB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B4E98CE323FD494600F43DB4 /* Project object */;
+}
